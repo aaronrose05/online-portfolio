@@ -1,0 +1,140 @@
+/* Navbar Styling */
+
+.navbar {
+    width: 100%;
+    background-color: transparent;
+    overflow: auto;
+    text-align: center;
+  }
+  
+  /* Navbar links */
+  .navbar li {
+    display: inline-block;
+    padding: 12px;
+  }
+
+  .navbar li a {
+    display: inline-block;
+    padding: 12px;
+    color: rgb(150, 150, 150);
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-family: 'Roboto';
+    border-bottom: 2px solid transparent; /* <- here */
+    transition: border-bottom 0.35s;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    border-bottom: 2px solid #7DA2A9;
+    color: #7DA2A9;
+  }
+  
+
+
+
+/* Introduction Styling */
+
+.intro{
+  padding-top: 5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  font-family: 'Roboto';
+}
+
+.intro-hello{
+  font-size: 6vw;
+  margin: 0;
+  color: #7DA2A9;
+}
+
+.typewriter {
+  font-family: 'Roboto';
+display: inline-block;
+}
+
+.typewriter-text {
+  display: inline-block;
+  overflow: hidden;
+  letter-spacing: 2px;
+  animation: typing 2s steps(30, end), blink .75s step-end infinite;
+  white-space: nowrap;
+  font-size: 3vw;
+  font-weight: 700;
+  border-right: 4px solid #7DA2A9;
+  box-sizing: border-box;
+  color: rgb(150, 150, 150)
+}
+
+@keyframes typing {
+  from { 
+      width: 0% 
+  }
+  to { 
+      width: 100% 
+  }
+}
+
+@keyframes blink {
+  from, to { 
+      border-color: transparent 
+  }
+  50% { 
+      border-color: #7DA2A9; 
+  }
+}
+
+
+/* Porfolio Styling */
+
+.portfolio{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: 'Roboto';
+  text-align: center;
+  font-size: 3vw;
+  color: #7DA2A9;
+  background-color: rgb(240, 240, 240);
+}
+
+.portfolio-card{
+  display: flex;
+  background-color: white;
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.portfolio-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Experience Styling */
+
+.experience{
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+  font-family: 'Roboto';
+  text-align: center;
+  font-size: 3vw;
+  color: #7DA2A9;
+  background-color: rgb(240, 240, 240);
+}
+
+.experience-card{
+  background-color: white;
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin-bottom: 5rem;
+}
+
+.experience-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
