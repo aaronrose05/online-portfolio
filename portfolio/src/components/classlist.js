@@ -9,10 +9,12 @@ class ClassList extends React.Component{
         return(
             <div className="classlist">
                 <div className="ext_navbar">
-                    <Link to="/"><img alt="PCI Logo" src={require('../assets/AR_Logo_Final.png')} /></Link>
+                    <Link to="/"><img alt="My Logo" src={require('../assets/AR_Logo_Final.png')} /></Link>
                 </div>
-                Here are some of the most relevant courses I took during my enrollment at the University of Maryland.
                 <div className="classlist-body">
+                    Test
+                </div>
+                <div className="classlist-body-collapsible">
                     <Collapsible trigger="INST490 - Integrated Capstone for Information Science">
                         <p> The capstone provides a platform for Information Science students where they can apply a subset of the concepts, methods, and tools they learn as part of the Information Science program to addressing an information problem or fulfilling an information need. </p>
                     </Collapsible>

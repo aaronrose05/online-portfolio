@@ -5,6 +5,8 @@ import './styles.css';
 
 import Home from './home';
 import ClassList from './classlist';
+import PCIReadMore from './pci_read_more';
+import INSTReadMore from './inst377_read_more';
 
 const Main = () => {
   return (
@@ -14,6 +16,8 @@ const Main = () => {
           <Switch location={location}> {/* The Switch decides which component to show based on the current URL.*/}
             <Route exact path='/' component={Home}></Route>
             <Route exact path='/classlist' component={ClassList}></Route>
+            <Route exact path='/pci_read_more' component={PCIReadMore}></Route>
+            <Route exact path='/inst_read_more' component={INSTReadMore}></Route>
           </Switch>
         </CSSTransition>
       </TransitionGroup>

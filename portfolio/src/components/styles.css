@@ -22,6 +22,12 @@ html {
     width: 3vw;
     height: 3vw;
     padding: 1vw;
+    transition: 0.35s ease;
+  }
+
+  .ext_navbar img:hover {
+    width: 4vw;
+    height: 4vw;
   }
   
   /* Navbar links */
@@ -347,7 +353,7 @@ display: inline-block;
 }
 
 .about-card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
 }
 
 .about-image-wrapper {
@@ -391,10 +397,25 @@ display: inline-block;
   background-color: white;
 }
 
-.classlist-body {
+.classlist-body{
+  font-family: 'Roboto';
+  font-size: 1.5vw;
+  color: rgb(150, 150, 150);
+  text-align: center;
+  padding-bottom: 1.5vw;
+}
+
+.classlist-body-collapsible{
   width: 70vw;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.classlist-body-collapsible:hover{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
 }
 
 .Collapsible{
