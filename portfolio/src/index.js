@@ -5,6 +5,7 @@ import Navbar from './components/navbar';
 import Intro from './components/intro';
 import Portfolio from './components/portfolio';
 import Experience from './components/experience';
+import About from './components/about';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
@@ -13,6 +14,7 @@ ReactDOM.render(
     <Intro />
     <Portfolio />
     <Experience />
+    <About />
   </React.StrictMode>,
   document.getElementById('root')
 );

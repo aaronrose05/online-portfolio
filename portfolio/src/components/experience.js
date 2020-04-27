@@ -60,6 +60,9 @@ class Experience extends React.Component{
                             <a href="https://www.umd.edu"> University of Maryland, College Park </a>
                             <br />
                             August 2016 - May 2020
+                            <br />
+                            <br />
+                            <a href="#education"> Click here for a list of my relevant coursework</a>
                         </p>
                     </div>
                 </div>
