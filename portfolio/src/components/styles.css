@@ -11,6 +11,19 @@ html {
     overflow: auto;
     text-align: center;
   }
+
+  .ext_navbar {
+    width: 100%;
+    background-color: transparent;
+    overflow: auto;
+    text-align: left;
+  }
+
+  .ext_navbar img {
+    width: 5vw;
+    height: 5vw;
+    padding: 1vw;
+  }
   
   /* Navbar links */
   .navbar li {
@@ -371,4 +384,33 @@ display: inline-block;
 
 .icon:hover{
   color: #FF9966;
+}
+
+/* Class List Styling */
+
+.classlist {
+  background-color: white;
+}
+
+.classlist-body {
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(240, 240, 240);
+}
+
+.Collapsible{
+  color: #FF9966;
+  background-color: rgb(240, 240, 240);
+  font-family: 'Roboto';
+  font-size: 1.5vw;
+  padding: 1vw;
+}
+
+.Collapsible__contentInner{
+  color: rgb(150, 150, 150);
+  background-color: white;
+  font-family: 'Roboto';
+  font-size: 1.5vw;
+  padding: 1vw;
 }

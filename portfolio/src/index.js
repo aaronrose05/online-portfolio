@@ -1,21 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
+import App from './App';
 import './index.css';
-import Navbar from './components/navbar';
-import Intro from './components/intro';
-import Portfolio from './components/portfolio';
-import Experience from './components/experience';
-import About from './components/about';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Navbar />
-    <Intro />
-    <Portfolio />
-    <Experience />
-    <About />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <App /> {/* The various pages will be displayed by the `Main` component. */}
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
