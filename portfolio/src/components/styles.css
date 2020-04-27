@@ -2,7 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
 /* Navbar Styling */
 
 .navbar {
@@ -20,8 +19,8 @@ html {
   }
 
   .ext_navbar img {
-    width: 5vw;
-    height: 5vw;
+    width: 3vw;
+    height: 3vw;
     padding: 1vw;
   }
   
@@ -396,15 +395,19 @@ display: inline-block;
   width: 70vw;
   margin-left: auto;
   margin-right: auto;
-  background-color: rgb(240, 240, 240);
 }
 
 .Collapsible{
-  color: #FF9966;
-  background-color: rgb(240, 240, 240);
+  color: rgb(150, 150, 150);
   font-family: 'Roboto';
   font-size: 1.5vw;
   padding: 1vw;
+  transition: 0.35s ease;
+}
+
+.Collapsible:hover {
+  color: #FF9966;
+  border-left: 2px solid #FF9966;
 }
 
 .Collapsible__contentInner{
