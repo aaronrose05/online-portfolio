@@ -1,5 +1,7 @@
 import React from 'react';
 import './styles.css';
+import ClassList from './classlist';
+import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 
 class Experience extends React.Component{
     render(){
@@ -62,7 +64,11 @@ class Experience extends React.Component{
                             August 2016 - May 2020
                             <br />
                             <br />
-                            <a href="#education"> Click here for a list of my relevant coursework</a>
+                            <Router>
+                                <Link to="/classlist">Click this link to see relevant coursework</Link>
+                                <Route exact path="/experience" component={Experience}/>
+                                <Route exact path="/classlist" component={ClassList}/>
+                            </Router>
                         </p>
                     </div>
                 </div>

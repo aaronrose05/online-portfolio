@@ -4,7 +4,7 @@ import './styles.css';
 class Navbar extends React.Component{
     render(){
         return(
-            <div class="navbar">
+            <div className="navbar">
                 <li> <a href="#portfolio"> Portfolio </a> </li>
                 <li> <a href="#experience"> Experience </a> </li>
                 <li> <a href="#education"> Education </a> </li>

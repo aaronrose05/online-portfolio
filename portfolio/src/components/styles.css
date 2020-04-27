@@ -110,6 +110,7 @@ display: inline-block;
   height: auto;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
+  border-radius: 5px;
 }
 
 .portfolio-card:hover {
@@ -119,6 +120,59 @@ display: inline-block;
 .portfolio-image-wrapper {
   width: 60%;
   height: auto;
+  position: relative;
+}
+
+.image-overlay {
+  background-color: rgba(240, 240, 240, 0.7);
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  position: absolute;
+  transition: opacity .5s;
+}
+
+.image-overlay:hover {
+  opacity: 1;
+  transition: opacity .5s;
+}
+
+.overlay-button-pci{
+  margin-top: 8vw;
+  width: 50%;
+  height: 20%;
+  font-family: 'Roboto';
+  font-size: 1.5vw;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border: none;
+  background-color: white;
+  color: rgb(150, 150, 150);
+  transition: 0.35s ease;
+}
+
+.overlay-button-377{
+  margin-top: 5.5vw;
+  width: 50%;
+  height: 20%;
+  font-family: 'Roboto';
+  font-size: 1.5vw;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border: none;
+  background-color: white;
+  color: rgb(150, 150, 150);
+  transition: 0.35s ease;
+}
+
+.overlay-button-pci:hover {
+  color: #FF9966;
+}
+
+.overlay-button-377:hover {
+  color: #FF9966;
 }
 
 .portfolio-desc-wrapper {
@@ -133,6 +187,8 @@ display: inline-block;
   width: 100%;
   height: 100%;
   align-items: center;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 /* Mobile fomratting portfolio cards */
@@ -147,6 +203,16 @@ display: inline-block;
 
   .portfolio-desc-wrapper{
     width: 100%;
+    font-size: 2vw;
+  }
+
+  .overlay-button-pci{
+    margin-top: 15.5vw;
+    font-size: 2vw;
+  }
+
+  .overlay-button-377{
+    margin-top: 10.5vw;
     font-size: 2vw;
   }
 }
@@ -174,6 +240,7 @@ display: inline-block;
   height: auto;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
+  border-radius: 5px;
 }
 
 .experience-card:hover {
@@ -225,6 +292,7 @@ display: inline-block;
   width: 100%;
   height: 10vw;
   align-items: center;
+  border-top-left-radius: 5px;
 }
 
 .education{
@@ -263,6 +331,7 @@ display: inline-block;
   height: auto;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
+  border-radius: 5px;
 }
 
 .about-card:hover {
@@ -290,6 +359,7 @@ display: inline-block;
   width: 100%;
   height: 100%;
   align-items: center;
+  border-bottom-right-radius: 5px;
 }
 
 .icon{

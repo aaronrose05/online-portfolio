@@ -6,8 +6,8 @@ class Intro extends React.Component{
         return(
             <div id="intro" className="intro">
                 <p className="intro-hello">Hi, my name is Aaron Rose</p>
-                <div class="typewriter">
-                    <div class="typewriter-text">I'm a Software Developer</div>
+                <div className="typewriter">
+                    <div className="typewriter-text">I'm a Software Developer</div>
                 </div>
             </div>
 
