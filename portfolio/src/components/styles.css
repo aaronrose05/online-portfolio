@@ -2,14 +2,20 @@ html {
   scroll-behavior: smooth;
 }
 
-.blur-overlay {
-  filter: blur(1.5px);
+.black {
+  background-color: #141414;
 }
 
-.shell-wrap {
-  width: 100%;
-  height: 20vh;
+.intro-background {
+  color: #FF9966;
+  font: 1vw 'Andale Mono', Consolas, 'Courier New';
   background-color: #141414;
+  padding-left: 1vw;
+  padding-top: 1vw;
+}
+
+.blur-overlay {
+  filter: blur(1.5px);
 }
 
 .shell-top-bar {
@@ -18,7 +24,7 @@ html {
   padding: 5px 0;
   margin: 0;
   text-shadow: 1px 1px 0 rgba(255,255,255,0.5);
-  font-size: 0.85em;
+  font-size: 1vw;;
   border: 1px solid #CCCCCC;
   border-bottom: none;
 
@@ -39,37 +45,6 @@ html {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#B8B8B8',GradientType=0 ); /* IE6-9 */
 }
 
-.shell-body {
-  margin: 0;
-  padding: 5px;
-  height: auto;
-  list-style: none;
-  background: #141414;
-  color: #FF9966;
-  font: 0.8em 'Andale Mono', Consolas, 'Courier New';
-  line-height: 1.6em;
-
-  -webkit-border-bottom-right-radius: 3px;
-  -webkit-border-bottom-left-radius: 3px;
-  -moz-border-radius-bottomright: 3px;
-  -moz-border-radius-bottomleft: 3px;
-  border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px;
-}
-
-.shell-body li:before {
-  content: '$';
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-
-.shell-body li {
-  word-wrap: break-word;
-  position: relative;
-  padding: 0 0 0 15px;
-}
-
 /* Navbar Styling */
 
 .navbar {
@@ -77,6 +52,8 @@ html {
     background-color: #141414;
     overflow: auto;
     text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
   }
 
   .ext_navbar {
@@ -139,14 +116,18 @@ html {
 
 /* Introduction Styling */
 
-.intro{
-  padding-top: 5rem;
-  padding-bottom: 6rem;
+.intro {
   text-align: center;
   font-family: 'Roboto';
+  z-index: 10;
+  position: absolute;
+  width: 100vw;
+  padding-top: 5vh;
+  padding-bottom: 1vh;
+  left: 0;
 }
 
-.intro-hello{
+.intro-hello {
   font-size: 6vw;
   margin: 0;
   color: #FF9966;
@@ -192,7 +173,7 @@ display: inline-block;
 /* Porfolio Styling */
 
 .portfolio{
-  padding-top: 1rem;
+  padding-top: 5vh;
   padding-bottom: 1rem;
   font-family: 'Roboto';
   text-align: center;
@@ -297,6 +278,7 @@ display: inline-block;
 
 .experience{
   padding-top: 5vw;
+  padding-bottom: 1rem;
   font-family: 'Roboto';
   text-align: center;
   font-size: 3vw;
@@ -633,8 +615,15 @@ display: inline-block;
   }
 
   .intro{
-    padding-top: 2.5rem;
-    padding-bottom: 3rem;
+    padding-top: 5vh;
+  }
+
+  .intro-hello{
+    font-size: 4vw;
+  }
+
+  .typewriter-text{
+    font-size: 2vw;
   }
 
   .experience-card{
@@ -651,10 +640,6 @@ display: inline-block;
 
   .about-card{
     margin-top: 5vh;
-  }
-
-  .navbar{
-    height: 10vh;
   }
 
   .ext_navbar img {
@@ -674,6 +659,14 @@ display: inline-block;
   }
 
   .Collapsible__contentInner{
+    font-size: 2vw;
+  }
+
+  .shell-top-bar {
+    font-size: 1.5vw;
+  }
+
+  .navbar li a {
     font-size: 2vw;
   }
 }

@@ -11,9 +11,9 @@ class Home extends React.Component{
             <div>
                 <Intro />
                 <Navbar />
-                <Portfolio />
-                <Experience />
                 <About />
+                <Experience />
+                <Portfolio />
             </div>
         )
     }
