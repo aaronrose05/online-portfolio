@@ -4,16 +4,7 @@ import './styles.css';
 class Intro extends React.Component{
     render(){
         return(
-            /* 
-            <div id="intro" className="intro">
-                <p className="intro-hello">Hi, my name is Aaron Rose</p>
-                <div className="typewriter">
-                    <div className="typewriter-text">I'm a Software Developer and Data Scientist</div>
-                </div>
-            </div>
-            */
-
-            <div className="black">
+            <div id="top" className="black">
                 <p className="shell-top-bar">/Users/aaronrose/Documents/online-portfolio/portfolio</p>
                 <div id="intro" className="intro">
                 <p className="intro-hello">Hi, my name is Aaron Rose</p>
@@ -41,7 +32,7 @@ class Intro extends React.Component{
                         <br /> <br />
                         Note that the development build is not optimized.
                         <br />
-                        To create a production build, use npm run build.
+                        To create a production build, use <strong>npm run build</strong>.
                     </div>
                 </div>
             </div>
