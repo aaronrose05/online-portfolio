@@ -116,45 +116,45 @@ class INSTReadMore extends React.Component{
                 <div className="technologies">
                     <div className="row">
                         <div className="column">
-                            <img alt="My Logo" src={require('../assets/js_logo.png')} />
+                            <img alt="Javascript Logo" src={require('../assets/js_logo.png')} />
                             Javascript
                         </div>
                         <div className="column">
-                            <img alt="My Logo" src={require('../assets/bootstrap_logo.png')} />
+                            <img alt="Bootstrap Logo" src={require('../assets/bootstrap_logo.png')} />
                             Bootstrap
                         </div>
                         <div className="column">
-                            <img alt="My Logo" src={require('../assets/css_logo.png')} />
+                            <img alt="CSS Logo" src={require('../assets/css_logo.png')} />
                             CSS3
                         </div>
                         <div className="column">
-                            <img alt="My Logo" src={require('../assets/html_logo.png')} />
+                            <img alt="HTML Logo" src={require('../assets/html_logo.png')} />
                             HTML5
                         </div>
                         <div className="column">
-                            <img alt="My Logo" src={require('../assets/leaflet_logo.png')} />
+                            <img alt="Leaflet Logo" src={require('../assets/leaflet_logo.png')} />
                             Leaflet
                         </div>
                     </div>
                     <div className="row">
                         <div className="column">
-                            <img alt="My Logo" src={require('../assets/git_logo.png')} />
+                            <img alt="Git Logo" src={require('../assets/git_logo.png')} />
                             Git
                         </div>
                         <div className="column">
-                            <img alt="My Logo" src={require('../assets/google_api_logo.jpg')} />
+                            <img alt="Google API Logo" src={require('../assets/google_api_logo.jpg')} />
                             Google Maps API
                         </div>
                         <div className="column">
-                            <img alt="My Logo" src={require('../assets/python_logo.png')} />
+                            <img alt="Python Logo" src={require('../assets/python_logo.png')} />
                             Python
                         </div>
                         <div className="column">
-                            <img alt="My Logo" src={require('../assets/jquery_logo.png')} />
+                            <img alt="jQuery Logo" src={require('../assets/jquery_logo.png')} />
                             jQuery
                         </div>
                         <div className="column">
-                            <img alt="My Logo" src={require('../assets/node_logo.png')} />
+                            <img alt="NodeJS Logo" src={require('../assets/node_logo.png')} />
                             NodeJS
                         </div>
                     </div>

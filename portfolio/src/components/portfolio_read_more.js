@@ -3,12 +3,14 @@ import './styles.css';
 import { Link } from 'react-router-dom';
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
-import pic1 from '../assets/intern_project1.JPG';
-import pic2 from '../assets/intern_project2.JPG';
-import pic4 from '../assets/intern_project4.JPG';
+import home from '../assets/portfolio_home.png';
+import about from '../assets/portfolio_about.png';
+import experience from '../assets/portfolio_experience.png';
+import education from '../assets/portfolio_education.png';
+import project from '../assets/portfolio_project.png';
 import ScrollToTop from './scrollbutton';
 
-class PCIReadMore extends React.Component{
+class PortfolioReadMore extends React.Component{
     componentDidMount() {
         window.scrollTo(0, 0)
     }
@@ -24,9 +26,11 @@ class PCIReadMore extends React.Component{
                 </div>
                 <div className="image-slider">
                     <AwesomeSlider>
-                        <div data-src={pic1} />
-                        <div data-src={pic2} />
-                        <div data-src={pic4} />
+                        <div data-src={home} />
+                        <div data-src={about} />
+                        <div data-src={experience} />
+                        <div data-src={education} />
+                        <div data-src={project} />
                     </AwesomeSlider>
                 </div>
                 <div className="read-more-content">
@@ -53,16 +57,24 @@ class PCIReadMore extends React.Component{
                 <div className="technologies">
                     <div className="row">
                         <div className="column">
-                            <img alt="Angular Logo" src={require('../assets/angular_logo.png')} />
-                            Angular
+                            <img alt="React Logo" src={require('../assets/react_logo.png')} />
+                            React
                         </div>
                         <div className="column">
-                            <img alt="Boostrap Logo" src={require('../assets/bootstrap_logo.png')} />
+                            <img alt="React Router Logo" src={require('../assets/react_router_logo.png')} />
+                            React Router
+                        </div>
+                        <div className="column">
+                            <img alt="NPM Logo" src={require('../assets/npm_logo.png')} />
+                            NPM
+                        </div>
+                        <div className="column">
+                            <img alt="Bootstrap Logo" src={require('../assets/bootstrap_logo.png')} />
                             Bootstrap
                         </div>
                         <div className="column">
-                            <img alt="Typescript Logo" src={require('../assets/ts_logo.png')} />
-                            Typescript
+                            <img alt="Javascript Logo" src={require('../assets/js_logo.png')} />
+                            Javascript
                         </div>
                         <div className="column">
                             <img alt="CSS Logo" src={require('../assets/css_logo.png')} />
@@ -73,34 +85,12 @@ class PCIReadMore extends React.Component{
                             HTML5
                         </div>
                         <div className="column">
-                            <img alt="VisJS Logo" src={require('../assets/vis_logo.png')} />
-                            VisJS
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="column">
-                            <img alt="Elasticsearch Logo" src={require('../assets/elastic_logo.png')} />
-                            Elasticsearch
+                            <img alt="Git Logo" src={require('../assets/git_logo.png')} />
+                            Github
                         </div>
                         <div className="column">
-                            <img alt="Kibana Logo" src={require('../assets/kibana_logo.png')} />
-                            Kibana
-                        </div>
-                        <div className="column">
-                            <img alt="Beats Logo" src={require('../assets/beats_logo.png')} />
-                            Beats
-                        </div>
-                        <div className="column">
-                            <img alt="Python Logo" src={require('../assets/python_logo.png')} />
-                            Python
-                        </div>
-                        <div className="column">
-                            <img alt="jQuery Logo" src={require('../assets/jquery_logo.png')} />
-                            jQuery
-                        </div>
-                        <div className="column">
-                            <img alt="NodeJS Logo" src={require('../assets/node_logo.png')} />
-                            NodeJS
+                            <img alt="PHP Logo" src={require('../assets/php_logo.png')} />
+                            PHP
                         </div>
                     </div>
                 </div>
@@ -109,4 +99,4 @@ class PCIReadMore extends React.Component{
         )
     }
 }
-export default PCIReadMore;
+export default PortfolioReadMore;

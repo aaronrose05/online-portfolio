@@ -9,7 +9,7 @@ class About extends React.Component{
 
                 <div className="about-card">
                     <div className="about-desc-wrapper">
-                        I'm a graduating senior from the University of Maryland this coming May and
+                        I'm a graduating senior from the University of Maryland and
                         looking for a job following graduation in the fields of: Software Development,
                         Web Development, Data Science and / or Data Analytics, and Software Engineering.
                         <br />

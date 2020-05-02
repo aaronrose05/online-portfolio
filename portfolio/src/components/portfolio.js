@@ -10,6 +10,27 @@ class Portfolio extends React.Component{
 
                 <div className="portfolio-card">
                     <div className="portfolio-image-wrapper">
+                        <img className="portfolio-image" alt="This web application" src={require('../assets/portfolio_home.png')} />
+                        <div className="image-overlay">
+                            <Link to="/portfolio_read_more">
+                                <button className="overlay-button-377"><i className="fa fa-link"></i> Read More </button>
+                            </Link>
+                            <br />
+                            <a href="https://github.com/aaronrose05/online-portfolio/tree/master/portfolio"><button className="overlay-button-377"><i className="fa fa-github"></i> Github Code </button></a>
+                        </div>
+                    </div>
+                    <div className="portfolio-desc-wrapper">
+                        <p>
+                            <strong>Aaron Rose's Portfolio</strong>
+                            <br />
+                            <br />
+                            A web application that showcases my experience, education, and ability to code.
+                        </p>
+                    </div>
+                </div>
+
+                <div className="portfolio-card">
+                    <div className="portfolio-image-wrapper">
                         <img className="portfolio-image" alt="Summer 2019 intern project" src={require('../assets/intern_project1.JPG')} />
                         <div className="image-overlay">
                             <Link to="/pci_read_more">
