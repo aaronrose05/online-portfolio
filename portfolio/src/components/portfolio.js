@@ -6,7 +6,7 @@ class Portfolio extends React.Component{
     render(){
         return(
             <div id="portfolio" className="portfolio">
-                My Portfolio:
+                Portfolio
 
                 <div className="portfolio-card">
                     <div className="portfolio-image-wrapper">

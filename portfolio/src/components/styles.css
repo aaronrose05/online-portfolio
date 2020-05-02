@@ -2,6 +2,36 @@ html {
   scroll-behavior: smooth;
 }
 
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, rgb(240,240,240) 50%, white 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:9s;
+}
+
+.bg3 {
+  animation-duration:10s;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+
 .black {
   background-color: #141414;
 }
@@ -99,7 +129,7 @@ html {
   .navbar li a {
     display: inline-block;
     padding: 12px;
-    color: rgb(150, 150, 150);
+    color: rgb(240, 240, 240);
     text-decoration: none;
     font-size: 1.5vw;
     font-family: 'Roboto';
@@ -148,7 +178,7 @@ display: inline-block;
   font-weight: 700;
   border-right: 4px solid #FF9966;
   box-sizing: border-box;
-  color: rgb(150, 150, 150)
+  color: rgb(240, 240, 240);
 }
 
 @keyframes typing {
@@ -179,7 +209,7 @@ display: inline-block;
   text-align: center;
   font-size: 3vw;
   color: #FF9966;
-  background-color: rgb(240, 240, 240);
+  background-color: transparent;
 }
 
 .portfolio-card{
@@ -283,7 +313,7 @@ display: inline-block;
   text-align: center;
   font-size: 3vw;
   color: #FF9966;
-  background-color: rgb(240, 240, 240);
+  background-color: transparent;
 }
 
 .experience-card{
@@ -374,7 +404,7 @@ display: inline-block;
   text-align: center;
   font-size: 3vw;
   color: #FF9966;
-  background-color: rgb(240, 240, 240);
+  background-color: transparent;
 }
 
 .about-card{

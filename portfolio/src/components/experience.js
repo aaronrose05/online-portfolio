@@ -6,7 +6,7 @@ class Experience extends React.Component{
     render(){
         return(
             <div id="experience" className="experience">
-                My Experience:
+                Experience
 
                 <div className="experience-card">
                     <div className="experience-image-wrapper">
@@ -49,7 +49,7 @@ class Experience extends React.Component{
                     </div>
                 </div>
 
-                <div id="education" className="education"> My Education </div>
+                <div id="education" className="education"> Education </div>
 
                 <div className="experience-card">
                     <div className="experience-image-wrapper">
