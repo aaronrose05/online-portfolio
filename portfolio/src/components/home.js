@@ -5,6 +5,7 @@ import Portfolio from './portfolio';
 import Experience from './experience';
 import About from './about';
 import ScrollToTop from './scrollbutton';
+import ContactForm from './contact';
 
 class Home extends React.Component{
     render(){
@@ -18,6 +19,7 @@ class Home extends React.Component{
                 <About />
                 <Experience />
                 <Portfolio />
+                <ContactForm />
                 <ScrollToTop />
             </div>
         )

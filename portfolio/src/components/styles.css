@@ -617,6 +617,99 @@ display: inline-block;
     width: 3vw;
     padding: 0.5vw;
   }
+
+  /* Contact form styling */
+  .contact {
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5vh;
+    padding-bottom: 1rem;
+    font-family: 'Roboto';
+    text-align: center;
+    font-size: 3vw;
+    color: #FF9966;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-container {
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+  }
+
+  textarea {
+    font-family: 'Roboto';
+    font-size: 1.5vw;
+    color: rgb(150, 150, 150);
+  }
+
+  .form-header{
+    font-family: 'Roboto';
+    font-size: 1.5vw;
+    text-align: left;
+    flex-direction: column;
+    padding-left: 8vw;
+    padding-bottom: 0.5vw;
+  }
+
+  .form-box {
+    resize: none;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(200, 200, 200);
+    width: 75%;
+    font-family: 'Roboto';
+    height: 2vw;
+    padding: 0.25vw;
+  }
+
+  .form-message {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(200, 200, 200);
+    width: 75%;
+    font-family: 'Roboto';
+    height: 20vw;
+  }
+
+  .submit-button {
+    width: 10vw;
+    font-size: 2vw;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 5px;
+    background-color: white;
+    transition: 0.35s ease;
+  }
+
+  .submit-button:hover {
+    color: #FF9966;
+    transform: scale(1.2);
+  }
+
+  ::-webkit-input-placeholder {
+    color: rgb(200, 200, 200);
+    font-size: 1.5vw;
+    text-align: left;
+}
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: rgb(200, 200, 200);
+    font-size: 1.5vw;
+    text-align: left;
+}
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: rgb(200, 200, 200);
+    font-size: 1.5vw;
+    text-align: left;
+}
+:-ms-input-placeholder {
+    color: rgb(200, 200, 200);
+    font-size: 1.5vw;
+    text-align: left;
+}
   
   /* On screens that are 992px wide or less, go from four columns to two columns */
   @media screen and (max-width: 992px) {
@@ -770,10 +863,6 @@ display: inline-block;
     font-size: 3vw;
   }
 
-  .navbar li p {
-    font-size: 3vw;
-  }
-
   .scroll-button {
     font-size: 5vw;
   }
@@ -784,5 +873,47 @@ display: inline-block;
 
   .read-more-content h1 {
     font-size: 5vw;
+  }
+
+  .contact {
+    width: 80vw;
+    font-size: 5vw;
+  }
+
+  .form-header {
+    padding-left: 10vw;
+    font-size: 3vw;
+  }
+
+    ::-webkit-input-placeholder {
+      color: rgb(200, 200, 200);
+      font-size: 2vw;
+      text-align: left;
+  }
+  :-moz-placeholder {
+      /* Firefox 18- */
+      color: rgb(200, 200, 200);
+      font-size: 2vw;
+      text-align: left;
+  }
+  ::-moz-placeholder {
+      /* Firefox 19+ */
+      color: rgb(200, 200, 200);
+      font-size: 2vw;
+      text-align: left;
+  }
+  :-ms-input-placeholder {
+      color: rgb(200, 200, 200);
+      font-size: 2vw;
+      text-align: left;
+  }
+
+  .form-box {
+    height: 3vw;
+  }
+
+  .submit-button {
+    width: 20vw;
+    font-size: 3vw;
   }
 }

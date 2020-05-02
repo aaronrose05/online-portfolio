@@ -89,8 +89,8 @@ class PortfolioReadMore extends React.Component{
                             Github
                         </div>
                         <div className="column">
-                            <img alt="PHP Logo" src={require('../assets/php_logo.png')} />
-                            PHP
+                            <img alt="EmailJS Logo" src={require('../assets/emailjs_logo.png')} />
+                            EmailJS
                         </div>
                     </div>
                 </div>

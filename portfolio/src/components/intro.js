@@ -26,7 +26,7 @@ class Intro extends React.Component{
                         <br /> <br />
                         Compiled successfully!
                         <br /> <br />
-                        You can now view portfolio in the browser.
+                        You can now view <strong>portfolio</strong> in the browser.
                         <br /> <br />
                         Local:            http://localhost:3000
                         <br /> <br />
