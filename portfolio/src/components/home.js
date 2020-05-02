@@ -9,8 +9,8 @@ class Home extends React.Component{
     render(){
         return(
             <div>
-                <Navbar />
                 <Intro />
+                <Navbar />
                 <Portfolio />
                 <Experience />
                 <About />
