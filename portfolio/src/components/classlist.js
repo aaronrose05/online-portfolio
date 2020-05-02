@@ -15,11 +15,16 @@ class ClassList extends React.Component{
                 <div className="ext_navbar">
                     <Link to="/"><img alt="My Logo" src={require('../assets/AR_Logo_Final.png')} /></Link>
                     <div className="ext_navbar_text">
-                        <i class="fa fa-arrow-left"></i> Back to home
+                        <i className="fa fa-arrow-left"></i> Back to home
                     </div>
                 </div>
                 <div className="classlist-body">
-                    Test
+                    <h1> tldr; I took classes at the University of Maryland </h1>
+                    During my 4 years at the University of Maryland, I was able to take a plethora of different
+                    courses within my major and outside of my major. I learned and practiced various different 
+                    languages from courses within my major, including: Python, HTML5, CSS3, Javascript, MySQL, R, 
+                    as well as many libraries within these languages. Below, I have listed all the relevant major 
+                    specific courses I was enrolled in while at the University of Maryland with their class descriptions.
                 </div>
                 <div className="classlist-body-collapsible">
                     <Collapsible trigger="INST490 - Integrated Capstone for Information Science">

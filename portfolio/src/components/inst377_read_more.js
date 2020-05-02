@@ -20,7 +20,7 @@ class INSTReadMore extends React.Component{
                 <div className="ext_navbar">
                     <Link to="/"><img alt="My Logo" src={require('../assets/AR_Logo_Final.png')} /></Link>
                     <div className="ext_navbar_text">
-                        <i class="fa fa-arrow-left"></i> Back to home
+                        <i className="fa fa-arrow-left"></i> Back to home
                     </div>
                 </div>
                 <div className="image-slider">

@@ -108,7 +108,7 @@ html {
 
   .navbar li p {
     display: inline-block;
-    padding: 12px;
+    padding: 2vw;
     color: rgb(240, 240, 240);
     text-decoration: none;
     font-size: 1.5vw;
@@ -161,7 +161,7 @@ html {
   padding: 5px 0;
   margin: 0;
   text-shadow: 1px 1px 0 rgba(255,255,255,0.5);
-  font-size: 1vw;;
+  font-size: 1.5vw;
   border: 1px solid #CCCCCC;
   border-bottom: none;
 
@@ -499,20 +499,30 @@ display: inline-block;
 }
 
 .classlist-body{
+  width: 70vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
   font-family: 'Roboto';
   font-size: 1.5vw;
   color: rgb(150, 150, 150);
-  text-align: center;
+  text-align: left;
   padding-bottom: 1.5vw;
+}
+
+.classlist-body h1{
+  font-family: 'Roboto';
+  color: #FF9966;
+  font-size: 3vw;
 }
 
 .classlist-body-collapsible{
   width: 70vw;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 15vw;
+  margin-right: 15vw;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   border-radius: 5px;
+  margin-bottom: 2vw;
 }
 
 .classlist-body-collapsible:hover{
@@ -642,9 +652,14 @@ display: inline-block;
 /* Mobile fomratting portfolio cards */
 @media only screen and (max-width: 768px){
 
+  .portfolio {
+    font-size: 5vw;
+  }
+
   .portfolio-card{
     flex-direction: column;
     margin-top: 5vh;
+    width: 80vw;
   }
 
   .portfolio-image-wrapper{
@@ -653,7 +668,24 @@ display: inline-block;
 
   .portfolio-desc-wrapper{
     width: 100%;
-    font-size: 2vw;
+    font-size: 3vw;
+  }
+
+  .experience {
+    font-size: 5vw;
+  }
+
+  .experience-card{
+    width: 80vw;
+    margin-top: 5vh;
+  }
+
+  .experience-desc-wrapper {
+    font-size: 3vw;
+  }
+
+  .experience-desc-wrapper a {
+    font-size: 3vw;
   }
 
   .overlay-button-pci{
@@ -667,19 +699,11 @@ display: inline-block;
   }
 
   .intro{
-    padding-top: 5vh;
-  }
-
-  .intro-hello{
-    font-size: 4vw;
+    padding-top: 5vw;
   }
 
   .typewriter-text{
-    font-size: 2vw;
-  }
-
-  .experience-card{
-    margin-top: 5vh;
+    font-size: 3vw;
   }
 
   .education{
@@ -688,10 +712,21 @@ display: inline-block;
 
   .about{
     padding-top: 5vh;
+    font-size: 5vw;
   }
 
   .about-card{
+    width: 80vw;
     margin-top: 5vh;
+  }
+
+  .about-desc-wrapper{
+    font-size: 3vw;
+    width: 100%;
+  }
+
+  .about-image {
+    display: none;
   }
 
   .ext_navbar img {
@@ -706,20 +741,24 @@ display: inline-block;
     height: 7vw;
   }
 
+  .classlist-body{
+    font-size: 3vw;
+  }
+
   .Collapsible{
-    font-size: 2vw;
+    font-size: 3vw;
   }
 
   .Collapsible__contentInner{
-    font-size: 2vw;
+    font-size: 3vw;
   }
 
   .shell-top-bar {
-    font-size: 1.5vw;
+    font-size: 3vw;
   }
 
-  .navbar li a {
-    font-size: 2vw;
+  .navbar li p {
+    font-size: 3vw;
   }
 
   .scroll-button {
