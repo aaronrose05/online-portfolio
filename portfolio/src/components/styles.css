@@ -576,6 +576,11 @@ display: inline-block;
   font-size: 3vw;
 }
 
+.read-more-content a{
+  font-family: 'Roboto';
+  color: #FF9966;
+}
+
   .row {
     display: flex;
     flex-wrap: wrap;
@@ -729,9 +734,17 @@ display: inline-block;
     display: none;
   }
 
+  .icon {
+    font-size: 5vw;
+  }
+
+  .ext_navbar_text {
+    font-size: 3vw;
+  }
+
   .ext_navbar img {
-    width: 5vw;
-    height: 5vw;
+    width: 10vw;
+    height: 10vw;
     padding: 1vw;
     transition: 0.35s ease;
   }
@@ -762,6 +775,14 @@ display: inline-block;
   }
 
   .scroll-button {
+    font-size: 5vw;
+  }
+
+  .read-more-content {
+    font-size: 3vw;
+  }
+
+  .read-more-content h1 {
     font-size: 5vw;
   }
 }
