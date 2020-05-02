@@ -18,9 +18,12 @@ class Portfolio extends React.Component{
                          </div>
                     </div>
                     <div className="portfolio-desc-wrapper">
-                        Description here
-                        <br />
-                        Just testing the spacing
+                        <p>
+                            <strong>PCI Intern Project</strong>
+                            <br />
+                            <br />
+                            A dynamic web application that collects and displays live network data
+                        </p>
                     </div>
                 </div>
 
@@ -36,9 +39,12 @@ class Portfolio extends React.Component{
                         </div>
                     </div>
                     <div className="portfolio-desc-wrapper">
-                        Description here
-                        <br />
-                        Just testing the spacing
+                        <p>
+                            <strong>INST 377 Final Project</strong>
+                            <br />
+                            <br />
+                            A web application that locates the nearest polling center in Prince George's county, Maryland to users
+                        </p>
                     </div>
                 </div>
             </div>

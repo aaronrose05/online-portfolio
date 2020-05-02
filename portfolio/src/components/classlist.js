@@ -2,14 +2,21 @@ import React from 'react';
 import './styles.css';
 import { Link } from 'react-router-dom';
 import Collapsible from 'react-collapsible';
+import ScrollToTop from './scrollbutton';
 
 class ClassList extends React.Component{
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
 
     render(){
         return(
             <div className="classlist">
                 <div className="ext_navbar">
                     <Link to="/"><img alt="My Logo" src={require('../assets/AR_Logo_Final.png')} /></Link>
+                    <div className="ext_navbar_text">
+                        <i class="fa fa-arrow-left"></i> Back to home
+                    </div>
                 </div>
                 <div className="classlist-body">
                     Test
@@ -61,6 +68,7 @@ class ClassList extends React.Component{
                         <p> Examines the theories, concepts, and principles of information, information representation and organization, record structures, description, and classification. Topics to be covered in this course include the methods and strategies to develop systems for storage, organization, and retrieval of information in a variety of organizational and institutional settings, as well as policy, ethical, and social implications of these systems. </p>
                     </Collapsible>
                 </div>
+                <ScrollToTop />
             </div>
         )
     }

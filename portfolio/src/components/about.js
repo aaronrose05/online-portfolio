@@ -23,14 +23,7 @@ class About extends React.Component{
                         <a href="https://www.linkedin.com/in/aaronrose05/"><i className="fa fa-linkedin-square icon"></i></a>
                         <a href="https://github.com/aaronrose05"><i className="fa fa-github icon"></i></a>
                     </div>
-                    <div className="about-image-wrapper">
-                        <div className="about-image-filler">
-                            
-                        </div>
-                        <div className="about-image-filler-bottom">
-                            <img className="about-image" alt="Me" src={require('../assets/profile_picture.png')} />
-                        </div>
-                    </div>
+                        <img className="about-image" alt="Me" src={require('../assets/profile_picture.png')} />
                 </div>
             </div>
         )

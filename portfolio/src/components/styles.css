@@ -80,6 +80,10 @@ html {
     text-decoration: none;
   }
 
+  .ext_navbar_text i{
+    padding-right: 0.5vw;
+  }
+
   .ext_navbar_text Link{
     text-decoration: none;
   }
@@ -102,7 +106,7 @@ html {
     padding: 12px;
   }
 
-  .navbar li a {
+  .navbar li p {
     display: inline-block;
     padding: 12px;
     color: rgb(240, 240, 240);
@@ -111,10 +115,12 @@ html {
     font-family: 'Roboto';
     border-bottom: 2px solid transparent; /* <- here */
     transition: border-bottom 0.35s;
+    cursor: default;
+    margin: 0;
   }
   
   /* Navbar links on mouse-over */
-  .navbar a:hover {
+  .navbar p:hover {
     border-bottom: 2px solid #FF9966;
     color: #FF9966;
   }
@@ -285,7 +291,7 @@ display: inline-block;
 }
 
 .overlay-button-377{
-  margin-top: 5.5vw;
+  margin-top: 4.5vw;
   width: 50%;
   height: 20%;
   font-family: 'Roboto';
@@ -312,6 +318,11 @@ display: inline-block;
   font-family: 'Roboto';
   color: rgb(150, 150, 150);
   font-size: 1.5vw;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding: 1.5vw;
+
 }
 
 .portfolio-image {
@@ -446,17 +457,6 @@ display: inline-block;
 .about-image-wrapper {
   width: 30%;
   height: 70%;
-  display: flex;
-  flex-direction: column;
-}
-
-.about-image-filler{
-  height: 30%;
-  padding-top: 50%;
-}
-
-.about-image-filler-bottom{
-  height: 70%;
 }
 
 .about-desc-wrapper {
@@ -476,6 +476,9 @@ display: inline-block;
   height: 100%;
   align-items: center;
   border-bottom-right-radius: 5px;
+  float: right;
+  width: 45%;
+  height: auto;
 }
 
 .icon{
@@ -659,7 +662,7 @@ display: inline-block;
   }
 
   .overlay-button-377{
-    margin-top: 10.5vw;
+    margin-top: 7vw;
     font-size: 2vw;
   }
 

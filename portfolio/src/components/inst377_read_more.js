@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles.css';
 import { Link } from 'react-router-dom';
+import ScrollToTop from './scrollbutton';
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 import home from '../assets/377_home.png';
@@ -9,6 +10,9 @@ import results from '../assets/377_results.png';
 import search from '../assets/377_search.png';
 
 class INSTReadMore extends React.Component{
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
 
     render(){
         return(
@@ -16,7 +20,7 @@ class INSTReadMore extends React.Component{
                 <div className="ext_navbar">
                     <Link to="/"><img alt="My Logo" src={require('../assets/AR_Logo_Final.png')} /></Link>
                     <div className="ext_navbar_text">
-                        Back to home
+                        <i class="fa fa-arrow-left"></i> Back to home
                     </div>
                 </div>
                 <div className="image-slider">
@@ -30,8 +34,8 @@ class INSTReadMore extends React.Component{
                 <div className="read-more-content">
                     <h1>Project Description</h1>
                     Insert description about project
-                    <h1> Project Timeline </h1>
-                    Insert timeline from project
+                    <h1> Project Process </h1>
+                    Insert project process description
                     <h1> Technologies used: </h1>
                 </div>
                 <div className="technologies">
@@ -80,6 +84,7 @@ class INSTReadMore extends React.Component{
                         </div>
                     </div>
                 </div>
+                <ScrollToTop />
             </div>
         )
     }

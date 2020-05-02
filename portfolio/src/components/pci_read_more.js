@@ -6,8 +6,12 @@ import 'react-awesome-slider/dist/styles.css';
 import pic1 from '../assets/intern_project1.JPG';
 import pic2 from '../assets/intern_project2.JPG';
 import pic4 from '../assets/intern_project4.JPG';
+import ScrollToTop from './scrollbutton';
 
 class PCIReadMore extends React.Component{
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
 
     render(){
         return(
@@ -15,7 +19,7 @@ class PCIReadMore extends React.Component{
                 <div className="ext_navbar">
                     <Link to="/"><img alt="My Logo" src={require('../assets/AR_Logo_Final.png')} /></Link>
                     <div className="ext_navbar_text">
-                        Back to home
+                        <i class="fa fa-arrow-left"></i> Back to home
                     </div>
                 </div>
                 <div className="image-slider">
@@ -28,8 +32,8 @@ class PCIReadMore extends React.Component{
                 <div className="read-more-content">
                     <h1>Project Description</h1>
                     Insert description about project
-                    <h1> Project Timeline </h1>
-                    Insert timeline from project
+                    <h1> Project Process </h1>
+                    Insert project process description
                     <h1> Technologies used: </h1>
                 </div>
                 <div className="technologies">
@@ -86,6 +90,7 @@ class PCIReadMore extends React.Component{
                         </div>
                     </div>
                 </div>
+                <ScrollToTop />
             </div>
         )
     }
