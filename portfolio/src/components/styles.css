@@ -130,7 +130,7 @@ html {
 
 .intro {
   text-align: center;
-  font-family: 'Roboto';
+  font-family: 'Racing Sans One', cursive;
   z-index: 10;
   position: absolute;
   width: 100vw;
@@ -189,7 +189,7 @@ html {
 }
 
 .typewriter {
-  font-family: 'Roboto';
+  font-family: 'Racing Sans One', cursive;
 display: inline-block;
 }
 
@@ -230,7 +230,7 @@ display: inline-block;
 .portfolio{
   padding-top: 5vh;
   padding-bottom: 1rem;
-  font-family: 'Roboto';
+  font-family: 'Racing Sans One', cursive;
   text-align: center;
   font-size: 3vw;
   color: #FF9966;
@@ -339,7 +339,7 @@ display: inline-block;
 .experience{
   padding-top: 5vw;
   padding-bottom: 1rem;
-  font-family: 'Roboto';
+  font-family: 'Racing Sans One', cursive;
   text-align: center;
   font-size: 3vw;
   color: #FF9966;
@@ -430,7 +430,7 @@ display: inline-block;
 .about{
   padding-top: 10vh;
   padding-bottom: 1rem;
-  font-family: 'Roboto';
+  font-family: 'Racing Sans One', cursive;
   text-align: center;
   font-size: 3vw;
   color: #FF9966;
@@ -510,7 +510,7 @@ display: inline-block;
 }
 
 .classlist-body h1{
-  font-family: 'Roboto';
+  font-family: 'Racing Sans One', cursive;
   color: #FF9966;
   font-size: 3vw;
 }
@@ -571,7 +571,7 @@ display: inline-block;
 }
 
 .read-more-content h1{
-  font-family: 'Roboto';
+  font-family: 'Racing Sans One', cursive;
   color: #FF9966;
   font-size: 3vw;
 }
