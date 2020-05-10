@@ -625,7 +625,7 @@ display: inline-block;
     margin-right: auto;
     padding-top: 5vh;
     padding-bottom: 1rem;
-    font-family: 'Roboto';
+    font-family: 'Racing Sans One', cursive;
     text-align: center;
     font-size: 3vw;
     color: #FF9966;
@@ -646,7 +646,7 @@ display: inline-block;
   }
 
   .form-header{
-    font-family: 'Roboto';
+    font-family: 'Racing Sans One', cursive;
     font-size: 1.5vw;
     text-align: left;
     flex-direction: column;
