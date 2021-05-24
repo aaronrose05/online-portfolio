@@ -10,6 +10,27 @@ class Experience extends React.Component{
 
                 <div className="experience-card">
                     <div className="experience-image-wrapper">
+                        <img className="experience-image" alt="Fiserv Logo" src={require('../assets/Fiserv_logo.png')} />
+                    </div>
+                    <div className="experience-desc-wrapper">
+                        <p> <strong> Business Analyst / Software Developer </strong>
+                            <br />
+                            <a href="https://www.fiserv.com"> PCI </a>
+                            <br />
+                            August 2020 - Current
+                        </p>
+                        <ul>
+                            <li> Research, design, and implement scalable applications for information identification, extraction, analysis, retrieval, and indexing utilizing Python for automated financial systems. </li>
+                            <li> Modify software to rectify errors in code, adapt software to new hardware, improve financial application performance, and upgrade user interfaces. </li>
+                            <li> Consult with other internal teams and departments to improve processes efficiency through data analytics and automation. </li>
+                            <li> Lead and coordinate team scrum discussions and research for Python-based application design, development, and implementation. </li>
+                            <li> Implement new solutions to complex problems by restructuring existing VBA code into Python-based applications. </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div className="experience-card">
+                    <div className="experience-image-wrapper">
                         <img className="experience-image" alt="PCI Logo" src={require('../assets/pci_logo.png')} />
                     </div>
                     <div className="experience-desc-wrapper">
